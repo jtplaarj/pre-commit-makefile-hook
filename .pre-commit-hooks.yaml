@@ -1,0 +1,10 @@
+-   id: make
+    name: execute makefile
+    description: Execute a Makefile entry point.
+    entry: make
+    language: system
+    files: Makefile
+    pass_filenames: false
+    args: [pre-commit-hook]
+    always_run: true
+    stages: [commit, push, manual]
