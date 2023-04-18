@@ -5,12 +5,8 @@
  https://opensource.org/licenses/MIT
 -->
 ![GitHub](https://img.shields.io/github/license/jtplaarj/pre-commit-makefile-hook)
----
-title: pre-commit make action
-author: Jesús Lázaro
-date: 2023-04-18
-license: MIT
----
+
+# pre-commit make action
 
 This pre-commit hook executes a Makefile target. It is useful to run tests, linters, etc.
 
